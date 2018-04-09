@@ -7,7 +7,7 @@ import {
 
 import React, {
   Component,
-  PropTypes
+  // PropTypes
 } from 'react';
 
 
