@@ -3,7 +3,8 @@ import {
   View,
   NativeModules,
   Platform,
-  DeviceEventEmitter
+  DeviceEventEmitter,
+  ViewPropTypes
 } from 'react-native';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
