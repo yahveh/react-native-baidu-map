@@ -11,6 +11,7 @@ import MapTypes from './MapTypes';
 
 export default class MapView extends Component {
   static propTypes = {
+    ...ViewPropTypes,
     // ...View.propTypes, // 可能会崩溃 如果必要，使用 rn的 ViewPropTypes
     zoomControlsVisible: PropTypes.bool,
     trafficEnabled: PropTypes.bool,
